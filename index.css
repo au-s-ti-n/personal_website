@@ -1,8 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro&display=swap');
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono&family=Source+Code+Pro&display=swap');
 
 head {
     font-family: 'Roboto Mono';
 }
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 92%;
+    background-color: white;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: navy;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
 
 #profile {
     font-family: 'Roboto Mono';
@@ -11,6 +32,7 @@ head {
 body {
     align-items: center;
     font-family: 'Roboto Mono';
+    padding: 50px;
 }
 
 #tablist{
@@ -51,4 +73,24 @@ body {
     background: lightyellow;
 }
 
+h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#experience{
+    border: 2px solid navy;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 5;
+}
+
+.header{
+    margin-bottom: 10;
+    
+}
+
+.subheader{
+    margin-top: 10;
+}
 
