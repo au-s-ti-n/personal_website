@@ -5,6 +5,8 @@
 
 head {
     font-family: 'Roboto Mono';
+    background-color: black;
+    color: white;
 }
 
 .navbar {
@@ -12,27 +14,31 @@ head {
     position: fixed;
     top: 0;
     width: 92%;
-    background-color: white;
+    background-color: black;
+    color: white;
 }
 
 .navbar a {
     float: right;
     display: block;
-    color: navy;
+    color: white;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
     font-size: 17px;
   }
 
-#profile {
+#aboutme {
     font-family: 'Roboto Mono';
+    margin-right: 100px;
 }
 
 body {
     align-items: center;
     font-family: 'Roboto Mono';
     padding: 50px;
+    background-color: black;
+    color: white;
 }
 
 #tablist{
@@ -58,19 +64,6 @@ body {
     margin-right: 3px;
     border-bottom: none;
     background: white;
-}
-
-#tablist li a:link, #tablist li a:visited{
-    color: navy;
-}
-
-#tablist li a:hover{
-    color: black;
-    background: lightyellow;
-}
-
-#tablist li a.current{
-    background: lightyellow;
 }
 
 h2, h3, h4 {
