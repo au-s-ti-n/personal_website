@@ -24,11 +24,12 @@ head {
     text-decoration: none;
     font-size: 14px;
     margin-right: 3%;
-}
+  }
 
-#home {
-    font-size: 14px;
-    margin-left: 3%;
+#aboutme {
+    font-family: 'Roboto Mono';
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 body {
@@ -67,11 +68,6 @@ body {
 h2, h3, h4 {
     margin-top: 0;
     margin-bottom: 0;
-}
-
-#experience{
-    margin-right: 20%;
-    margin-left: 20%;
 }
 
 .header{
