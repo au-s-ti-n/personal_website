@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono&family=Source+Code+Pro&display=swap');
+
+head {
+    font-family: 'Roboto Mono';
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    background-color: black;
+    color: white;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 3%;
+}
+
+#home {
+    font-size: 14px;
+    margin-left: 3%;
+}
+
+body {
+    align-items: center;
+    font-family: 'Roboto Mono';
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+
+#tablist{
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Roboto Mono';
+    float: right;
+}
+
+#tablist li{
+    list-style: none;
+    display: inline;
+    margin: 0;
+    margin-right: 20;
+}
+
+#tablist li a{
+    text-decoration: none;
+    padding: 3px 0.5em;
+    margin-right: 3px;
+    border-bottom: none;
+    background: white;
+}
+
+h2, h3, h4, h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#experience{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.header{
+    margin-bottom: 10;
+    
+}
+
+.subheader{
+    margin-top: -1%;
+    margin-bottom: 1%
+}
