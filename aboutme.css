@@ -70,9 +70,16 @@ h2, h3, h4 {
     margin-bottom: 0;
 }
 
+h1 {
+    margin-bottom: 10%;
+}
+
+#hyplink{
+    color:white;
+}
+
 .header{
     margin-bottom: 10;
-    
 }
 
 .subheader{
