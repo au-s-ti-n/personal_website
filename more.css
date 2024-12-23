@@ -24,12 +24,35 @@ head {
     text-decoration: none;
     font-size: 14px;
     margin-right: 3%;
-  }
+}
 
-#aboutme {
-    font-family: 'Roboto Mono';
-    margin-right: 20%;
-    margin-left: 20%;
+.container {
+    display: inline-block;
+}
+
+.header{
+    margin-bottom: 10;
+    letter-spacing: 3px;
+    border-right: 2px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 1s steps(5),
+        cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
+
+#home {
+    font-size: 14px;
+    margin-left: 3%;
 }
 
 body {
@@ -65,24 +88,29 @@ body {
     background: white;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-h1 {
+p {
+    margin-bottom: 5%;
+}
+
+#experience{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.header{
     margin-bottom: 10%;
+}
+
+.subheader{
+    margin-top: 0%;
+    margin-bottom: 1%
 }
 
 #hyplink{
     color:white;
 }
-
-.header{
-    margin-bottom: 10;
-}
-
-.subheader{
-    margin-top: 10;
-}
-

@@ -31,6 +31,30 @@ head {
     margin-left: 3%;
 }
 
+.container {
+    display: inline-block;
+}
+
+.header{
+    margin-bottom: 10;
+    letter-spacing: 3px;
+    border-right: 2px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 1.5s steps(11),
+        cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
+
 body {
     align-items: center;
     font-family: 'Roboto Mono';
@@ -76,10 +100,6 @@ p {
 #experience{
     margin-right: 20%;
     margin-left: 20%;
-}
-
-.header{
-    margin-bottom: 10%;
 }
 
 .subheader{
